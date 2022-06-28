@@ -9,9 +9,9 @@
 title: I am Terry !
 name: lamdota2
 email: 17681828421@163.com
-location: Nice, France
-company: Gfi Informatique
-company_url: http://www.gfi.fr/en/
+location: Nice, China
+#company: Gfi Informatique
+#company_url: http://www.gfi.fr/en/
 github_url: https://github.com/lamdota2
 description: This is personnel website of Terry
 favicon: favicon.png # Image must be in assets/images
