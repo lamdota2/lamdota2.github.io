@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Build Path and Class Path
-category: java
-tags: [java]
+title: DPDK memory
+category: C/C++
+tags: [Dpdk]
 ---
 
 ## Build Path and Class Path
@@ -30,6 +30,5 @@ It is the term for the richer way that a typical **IDE** specifies the relations
 
 ## Ref
 
-* [Stackoverflow](http://stackoverflow.com/questions/3529459/what-is-the-difference-between-class-path-and-build-path)
-* [Eclipse Helper](http://help.eclipse.org/juno/index.jsp?topic=%2Forg.eclipse.jdt.doc.user%2Freference%2Fref-properties-build-path.htm)
-* [Tutorials Point](http://www.tutorialspoint.com/eclipse/eclipse_java_build_path.htm)
+* [dpdk memory]([http://stackoverflow.com/questions/3529459/what-is-the-difference-between-class-path-and-build-path](https://www.cnblogs.com/jiayy/p/3429725.html))
+
