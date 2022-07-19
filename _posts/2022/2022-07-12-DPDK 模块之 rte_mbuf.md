@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Summary
+title: rte_mbuf
 category: C/C++
-tags: [Summary]
+tags: [DPDK]
 ---
+
+![rte_mbuf 图片](https://github.com/lamdota2/lamdota2.github.io/blob/master/pictures/Struct-rte_mbuf.jpg "rte_mbuf")
 
 分配操作
 Mbuf由缓冲池rte_mempool管理，rte_mempool在初始化时一次申请多个mbuf，申请的mbuf个数和长度都由用户指定。宏MBUF_SIZE是例子程序中使用的mbuf长度：
