@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Summary
+title: rte_mbuf
 category: C/C++
-tags: [Summary]
+tags: [DPDK]
 ---
 
 分配操作
