@@ -5,17 +5,17 @@ category: C/C++
 tags: [DPDK]
 ---
 
-![rte_mbuf 图片](https://github.com/lamdota2/lamdota2.github.io/blob/master/pictures/Struct-rte_mbuf.jpg "rte_mbuf")
+![rte_mbuf 图片](https://github.com/lamdota2/lamdota2.github.io/blob/master/pictures/Struct-rte_mbuf.jpg)
 
 分配操作
 Mbuf由缓冲池rte_mempool管理，rte_mempool在初始化时一次申请多个mbuf，申请的mbuf个数和长度都由用户指定。宏MBUF_SIZE是例子程序中使用的mbuf长度：
-
+```c
 #define MBUF_SIZE (2048 + sizeof(struct rte_mbuf) + RTE_PKTMBUF_HEADROOM)
 
-用下面函数向rte_mempool申请一个mbuf：
+#用下面函数向rte_mempool申请一个mbuf：
 
 struct rte_mbuf *rte_pktmbuf_alloc(struct rte_mempool *mp);
-
+```
 拷贝操作
 宏RTE_MBUF_SCATTER_GATHER定义rte_mbuf是否支持拷贝功能。
 
